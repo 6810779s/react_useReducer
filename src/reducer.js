@@ -20,7 +20,7 @@ export const indexReducer = (state, action) => {
     case 'INPUT': {
       return {
         ...state,
-        value: action.value,
+        value: state.value,
       };
     }
   }
